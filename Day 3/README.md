@@ -32,7 +32,7 @@ S@nta2022
 ---
 We know that the flag is written inside the ```conf.php``` file. Therefore, we can download it with ```wget``` and use ```grep``` to snag the flag out from it. 
 *We need to make sure that we download the raw format of the file.*
-```
+```bash
 #!/bin/bash
 
 wget https://raw.githubusercontent.com/muhammadthm/SantaGiftShop/main/config.php

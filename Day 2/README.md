@@ -2,12 +2,19 @@
 ---
 > Help Elf McBlue track down the Bandit Yeti APT through the captured source files
 
-IP: ```10.10.103.100```
-Username: ```elfmcblue```
-Password: ```tryhackme!```
-
+## Objectives
+- Learn what log files are and why they’re useful
+- Understand what valuable information log files can contain
+- Understand some common locations these logs file can be found
+- Use some basic Linux commands to start analysing log files for valuable information
+- Help Elf McBlue track down the Bandit Yeti APT!
 ## Enumeration
 ---
+Credentials: 
+- IP: ```10.10.103.100```
+- Username: ```elfmcblue```
+- Password: ```tryhackme!```
+
 Connect to the target machine via SSH using the credentials above:
 ```ssh elfmcblue@10.10.103.100```
 
@@ -39,7 +46,7 @@ Flag: ```THM{STOLENSANTALIST}```
 
 ## Making a solve script
 I needed to figure out how to create a bash script that can SSH into a remote machine without typing in a password, then execute a command on said machine. `sshpass` is a tool that allows a solution for the former, as we are able to pass the credentials in using a variable. 
-```
+```bash
 #!/bin/bash
 
 server=10.10.103.100
