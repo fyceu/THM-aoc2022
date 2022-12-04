@@ -15,7 +15,7 @@ We can utilize the [WHOIS](who.is) database to find the registrar information ab
 
 ![Pasted image 20221203182940](https://user-images.githubusercontent.com/65686765/205475651-a176ff62-a828-4ff1-889a-0e4ed61b680f.png)
 
-### What is the name of the Registrar for the domain santagift.shop?
+### 1. What is the name of the Registrar for the domain santagift.shop?
 Answer
 
 ```NAMECHEAP INC```
@@ -25,12 +25,12 @@ config.php``` file.
 ![Pasted image 20221203183221](https://user-images.githubusercontent.com/65686765/205475690-cc93236a-e1a6-4b6e-a484-8f98266eddfc.png)
 
 [![[Pasted image 20221203183354.png]]](<![Pasted image 20221203183354](https://user-images.githubusercontent.com/65686765/205475693-ee6040e6-2f87-49c8-9070-255cb1e32892.png)>)
-### Find the website's source code (repository) on github.com and open the file containing sensitive credentials. Can you find the flag? 
+### 2. Find the website's source code (repository) on github.com and open the file containing sensitive credentials. Can you find the flag? 
 Answer
 
 ```{THM_OSINT_WORKS}```
 
-### What is the name of the file containing passwords?
+### 3. What is the name of the file containing passwords?
 Answer:
 ```config.php```
 
@@ -38,12 +38,12 @@ Answer:
 Perusing through the code, we are able to find a lot of the sensitive information regarding the site. 
 ![Pasted image 20221203183446](https://user-images.githubusercontent.com/65686765/205475729-64dc0c8a-1d52-4fc7-92b1-8137508124f1.png)
 
-### What is the name of the QA server associated with the website?
+### 4. What is the name of the QA server associated with the website?
 Answer:
 
 ```qa.santagift.shop```
 
-### What is the DB_PASSWORD that is being reused between the QA and PROD environments? 
+### 5. What is the DB_PASSWORD that is being reused between the QA and PROD environments? 
 Answer:
 
 ```S@nta2022```
