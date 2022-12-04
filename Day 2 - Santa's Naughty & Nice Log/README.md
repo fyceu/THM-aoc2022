@@ -1,5 +1,7 @@
 # Day 2 - Santa's Naughty & Nice Log
+*Category: Cyber Investigations*
 
+*Tags: Log Analysis*
 > Help Elf McBlue track down the Bandit Yeti APT through the captured source files
 ## Objectives
 - Learn what log files are and why they’re useful

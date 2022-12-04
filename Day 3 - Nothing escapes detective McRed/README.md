@@ -1,4 +1,7 @@
 # Day 3 - Nothing escapes detective McRed
+*Category: Red Teaming*
+
+*Tags: OSINT*
 > Help Elf Recon McRed with gathering open-source information against the website
 
 ## Objectives

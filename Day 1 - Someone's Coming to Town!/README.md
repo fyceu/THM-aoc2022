@@ -1,12 +1,11 @@
 # Someone's Coming to Town!
-*Category: Frameworks*
+*Category: Cyber Investigations*
 
-*Tags: Unified Kill Chain*
+*Tags: Frameworks*
 <br>
 > Your task is to help the Elves solve a puzzle left for them to identify who is trying to stop Christmas.
 
----
-For this task, we need to access the site to complete the three puzzles. 
+For this task, we need to access the site to complete the three puzzles.
 Using the clues, we can solve the puzzle by filling out the three cycles of the [Unified Kill Chain](https://www.unifiedkillchain.com/).
 
 ## Cycle 1: In
