@@ -56,7 +56,7 @@ Since the flag has a unique format consisting of THM{}, we can use the ```grep``
 Flag: 
 
 ```THM{STOLENSANTALIST}```
-
+<br>
 ## Making a solve script
 I needed to figure out how to create a bash script that can SSH into a remote machine without typing in a password, then execute a command on said machine. 
 

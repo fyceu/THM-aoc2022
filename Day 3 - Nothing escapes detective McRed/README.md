@@ -19,21 +19,22 @@ We can utilize the [WHOIS](who.is) database to find the registrar information ab
 Answer
 
 ```NAMECHEAP INC```
+<br>
 
 On the READE.md, it says that credentials are stored in the ```
 config.php``` file.
 ![Pasted image 20221203183221](https://user-images.githubusercontent.com/65686765/205475690-cc93236a-e1a6-4b6e-a484-8f98266eddfc.png)
+![Pasted image 20221203183354](https://user-images.githubusercontent.com/65686765/205476080-5e29d54c-64e0-4c40-be65-ac8c265c43c6.png)
 
-[![[Pasted image 20221203183354.png]]](<![Pasted image 20221203183354](https://user-images.githubusercontent.com/65686765/205475693-ee6040e6-2f87-49c8-9070-255cb1e32892.png)>)
 ### 2. Find the website's source code (repository) on github.com and open the file containing sensitive credentials. Can you find the flag? 
 Answer
 
 ```{THM_OSINT_WORKS}```
-
+<br>
 ### 3. What is the name of the file containing passwords?
 Answer:
 ```config.php```
-
+<br>
 
 Perusing through the code, we are able to find a lot of the sensitive information regarding the site. 
 ![Pasted image 20221203183446](https://user-images.githubusercontent.com/65686765/205475729-64dc0c8a-1d52-4fc7-92b1-8137508124f1.png)
@@ -50,7 +51,8 @@ Answer:
 
 ## Making a solve script
 ---
-We know that the flag is written inside the ```conf.php``` file. Therefore, we can download it with ```wget``` and then use ```grep``` to snag the flag out from the file.
+We know that the flag is written inside the ```conf.php``` file. 
+Therefore, we can download it with ```wget``` and then use ```grep``` to snag the flag out from the file.
 
 *We need to make sure that we download the raw format of the file.*
 ```bash
