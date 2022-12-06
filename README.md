@@ -22,10 +22,7 @@ Topics:
 - [X] [Day 1 - Someone's Coming to Town!](https://github.com/fyceu/THM-aoc2022/tree/main/Day%201%20-%20Someone's%20Coming%20to%20Town!)
 - [x] [Day 2 - Santa's Naughty & Nice Log](https://github.com/fyceu/THM-aoc2022/tree/main/Day%202%20-%20Santa's%20Naughty%20%26%20Nice%20Log)
 - [x] [Day 3 - Nothing escapes detective McRed](https://github.com/fyceu/THM-aoc2022/tree/main/Day%203%20-%20Nothing%20escapes%20detective%20McRed)
-<<<<<<< HEAD
-- [ ] [Day 4 - Scanning through the snow](https://github.com/fyceu/THM-aoc2022/tree/main/Day%204%20-%20Scanning%20through%20the%20snow)
-- [ ] 
-=======
-- [ ] Day 4 - Scanning through the snow
-- [ ] Day 5 - He knows when you're awake
-- [ ] Day 6 - TBA
+- [x] [Day 4 - Scanning through the snow](https://github.com/fyceu/THM-aoc2022/tree/main/Day%204%20-%20Scanning%20through%20the%20snow) 
+- [ ] [Day 5 - He knows when you're awake](https://github.com/fyceu/THM-aoc2022/tree/main/Day%205%20-%20He%20knows%20when%20you're%20awake)
+- [ ] Day 6 - It's beginning to look a lot like phishing
+- [ ] Day 7 - TBA
