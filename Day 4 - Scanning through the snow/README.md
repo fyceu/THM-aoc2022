@@ -13,14 +13,32 @@
 
 ## Enumeration
 
+![[Pasted image 20221205180043.png]]
+
+![[Pasted image 20221205183022.png]]
+
+![[Pasted image 20221205183627.png]]
+
+![[Pasted image 20221205183905.png]]
+
+![[Pasted image 20221205183915.png]]
 ## Questions
-1. what is the
-2. solve the
-3. answer the
-4. choose me
+1. What is the name of the HTTP server running on the remote host?
+`Apache`
+
+2. What is the name of the service running on port 22 on the QA server?
+`ssh`
+
+3. What flag can you find after successfully accessing the Samba service?
+`{THM_SANTA_SMB_SERVER}`
+
+4. What is the password of the username santahr?
+`santa25`
 
 ## Solve Script
 
 ```bash
-yeah so u do this thing
+#!/usr/bin/env bash
+
+smbget smb://10.10.22.19/admins/flag.txt -U ubuntu%S@nta2022
 ```
