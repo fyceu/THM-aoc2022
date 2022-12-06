@@ -1,4 +1,5 @@
-# Day 4 - 
+# Day 6 - It's beginning to look a lot like phishing
+
 *Category: Cyber Investigations*
 
 *Tags: Email Analysis*
